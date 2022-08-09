@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:padding="@dimen/_16sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_settings_back"
+            android:padding="@dimen/_4sdp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintBottom_toBottomOf="@+id/settings_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/settings_title"
+            style="@style/style_settings_tv"
+            android:gravity="center"
+            android:text="@string/settings"
+            android:textSize="@dimen/_32ssp"
+            app:layout_constraintBottom_toTopOf="@id/tv_fast_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_fast_start"
+            style="@style/style_settings_tv"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/tv_fast_start"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/settings_title" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_fast_start_full"
+            style="@style/style_settings_tv"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="@string/tv_fast_start_full"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toStartOf="@id/switch_fast_start"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_fast_start" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_fast_start"
+            style="@style/style_settings_switch_default"
+            android:thumb="@drawable/selector_switch_default"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_fast_start_full"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_fast_start"
+            app:thumbTint="@color/selector_thumb_tint"
+            app:track="@drawable/selector_switch_track"
+            app:trackTint="@color/selector_track_tint" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_fast_passage"
+            style="@style/style_settings_tv"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/tv_fast_passage"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_fast_start_full" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_fast_passage_full"
+            style="@style/style_settings_tv"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="@string/tv_fast_passage_full"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toStartOf="@id/switch_fast_passage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_fast_passage" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_fast_passage"
+            style="@style/style_settings_switch_default"
+            android:thumb="@drawable/selector_switch_default"
+            app:layout_constraintBottom_toBottomOf="@id/tv_fast_passage_full"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_fast_passage"
+            app:thumbTint="@color/selector_thumb_tint"
+            app:track="@drawable/selector_switch_track"
+            app:trackTint="@color/selector_track_tint" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_sound"
+            style="@style/style_settings_tv"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/tv_sound"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_fast_passage_full" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_sound_full"
+            style="@style/style_settings_tv"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="@string/tv_sound_full"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toStartOf="@id/switch_sound"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sound" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_sound"
+            style="@style/style_settings_switch_default"
+            android:thumb="@drawable/selector_switch_sound"
+            app:layout_constraintBottom_toBottomOf="@id/tv_sound_full"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_sound"
+            app:thumbTint="@color/selector_thumb_tint"
+            app:track="@drawable/selector_switch_track"
+            app:trackTint="@color/selector_track_tint" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_music"
+            style="@style/style_settings_tv"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/tv_music"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_sound_full" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_music_full"
+            style="@style/style_settings_tv"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:text="@string/tv_music_full"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintEnd_toStartOf="@id/switch_music"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_music" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_music"
+            style="@style/style_settings_switch_default"
+            android:thumb="@drawable/selector_switch_music"
+            app:layout_constraintBottom_toBottomOf="@id/tv_music_full"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_music"
+            app:thumbTint="@color/selector_thumb_tint"
+            app:track="@drawable/selector_switch_track"
+            app:trackTint="@color/selector_track_tint" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_clear_records"
+            style="@style/style_settings_tv"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="@string/tv_clear_records"
+            android:textSize="@dimen/_24ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_music_full" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/button_clear_record"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/selector_clear_record"
+            android:src="@drawable/ic_clear_record"
+            app:layout_constraintBottom_toBottomOf="@id/tv_clear_records"
+            app:layout_constraintEnd_toEndOf="@+id/switch_music"
+            app:layout_constraintStart_toStartOf="@+id/switch_music"
+            app:layout_constraintTop_toTopOf="@id/tv_clear_records" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

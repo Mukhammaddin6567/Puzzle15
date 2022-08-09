@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_main.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_clear_records.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_clear_records.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_game.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\fragment_game.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_continue_game.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_continue_game.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_exit_app.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_exit_app.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_about.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_about.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_winner.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_winner.xml"
+    },
+    {
+        "merged": "C:\\2\\projects\\Puzzle15\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\dialog_records.xml",
+        "source": "C:\\2\\projects\\Puzzle15\\app\\src\\main\\res\\layout\\dialog_records.xml"
+    }
+]
